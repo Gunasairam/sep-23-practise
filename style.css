@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Lexend&family=Lora:ital@1&family=Montserrat:wght@300;400&family=Newsreader:opsz@6..72&family=Oxygen&family=Phudu&family=Playfair+Display&family=Poppins&family=Raleway&family=Roboto:wght@300&family=Rubik&family=Titillium+Web:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins ;
+    overflow-x: hidden;
+
+}
+/* top header */
+.top{
+    background-color: rgba(216, 243, 215, 0.359);
+    width: 100vw;
+    height: 30px;
+    padding-left: 70px;
+}
+
+.social-links{
+    float: right;
+    padding-right: 150px;
+}
+
+.top a{
+ text-decoration: none;
+ color: rgb(62, 59, 59);
+ line-height: 1.8;
+ font-size: 14px;
+
+}
+.top .fa-brands,.fa-solid{
+    color: rgb(32, 72, 32);
+}
+.fa-solid{
+    padding-left: 10px;
+}
+.fa-brands{
+    padding: 5px 0;
+    padding-left: 15px;
+    font-size: 22px;
+}
+.fa-brands:hover{
+    color: green;
+}
+/* top end */
+
+/* nav section */
+.nav{
+    width: 100vw;
+    height: 30px;
+    margin-top: 10px;
+    line-height: 1.8;
+}
+.logo {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 40px;
+
+}
+.nav-links{
+    float: right;
+    margin-right: 170px;
+    }
+.nav-links a{
+    text-decoration: none;
+    color: rgb(35, 34, 34);
+    font-weight: bold;
+    padding: 1px 15px;
+    border: none;
+}
+.nav-links a:hover{
+    border: 2px solid green;
+    color: green;
+    border-radius: 3px;
+
+}
+/* nav section end */
+
+/* container start */
+.container{
+    width: 88vw;
+    background-color: rgba(218, 223, 217, 0.478);
+    margin: 30px 90px 0px 75px;
+}
+.banner{
+    background-image: url(./main-banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #ffffff;
+    text-align: center;
+    padding: 150px 100px 30px 100px;
+}
+.container p{
+    font-size: 12px;
+    line-height: 2.5;
+
+}
+.banner button{
+    background-color: rgb(64, 198, 64);
+    border: none;
+    font-size: 16px;
+    padding: 8px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+.banner button:hover{
+    background-color: rgb(116, 251, 134);
+}
+
+.work{
+    padding: 1px 0px 40px 40px;
+    display: flex;
+}
+.icon{
+    font-size: 46px;
+    color: rgb(64, 198, 64);
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.lorem{
+    margin-right: 30px;
+}
+/* container end */
+
+/* team section */
+.team{
+    background-color: rgba(124, 251, 211, 0.733);
+    margin-top: 20px;
+    width: 90vw;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading{
+    text-align: center ;
+    margin-bottom: 30px;
+}
+.heading>h3{
+    line-height: 1.8;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.container1{
+    display: flex;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.profilecards{
+    width: 400px;
+    height: 550px;
+    background-color: #fff;
+    margin-right:4% ;
+    margin-bottom: 30px;
+}
+.img-area{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:15% auto 10% auto ;
+}
+.img-area img{
+    width: 100%;
+}
+.about{
+    text-align: center;
+}
+.designation{
+    font-size: 12px;
+    line-height: 2;
+    font-weight: normal;
+    font-style: italic;
+}
+.name{
+    font-size: 16px;
+}
+.desc{
+    padding: 15px 40px 30px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #6c6a6a;
+}
+.team-social-link{
+    font-size: 22px;
+    color: #5f5f5f;
+    padding: 12px;
+}
+
+/* team section end */
+
+
+/* container2 */
+.container2{
+    display: flex;
+    margin-bottom: 65px;
+}
+.aside{
+    width: 500px;
+    height: auto;
+    padding: 20px 0px 0px 70px;
+}
+
+.aside h3{
+    display: inline-block;
+    line-height: 1.5;
+
+}
+.aside p{
+    color: gray;
+}
+iframe{
+    padding-top: 15px;
+}
+
+.icon2{
+    color: rgb(4, 169, 4);
+    
+}
+.section{
+    margin-left: 50px;
+}
+.info{
+    display: flex;
+    padding-top: 40px;
+}
+.location,.email{
+    padding-bottom: 40px;
+
+}
+.name{
+    padding-right: 20px;
+}
+.message{
+   padding-top: 50px;
+}
